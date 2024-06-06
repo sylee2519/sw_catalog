@@ -194,8 +194,7 @@ void msg_queue_init()
         perror("shmget");
         exit(1);
     }
-        cout << "id: " << shmid << '\n';
-
+    printf("id: %d\n", shmid);
 
     msg_queue = (struct Element *)shmat(shmid, NULL, 0);
     if (msg_queue == (void *)-1) {
@@ -209,11 +208,10 @@ void msg_queue_init()
     pthread_cond_init(&msg_queue[i].cond, NULL);
      }
 
-    cout << "shared memory was created well\n";
+    printf("shared memory has created well\n");
 
     char * hostname = getenv("HOSTNAME");
-    cout << "server: " << hostname << endl;
-
+    printf("server: %s\n", hostname);
 
 }
 
@@ -242,7 +240,7 @@ int layout_analysis(const char *file_path, struct stat64 *sb){
     layout = llapi_layout_get_by_path(file_path, 0);
     if (layout == NULL){
         puts(file_path);
-        cout << "errno:" << errno;
+        perror("layout error");;
         return 1;
     }
 
@@ -252,7 +250,7 @@ int layout_analysis(const char *file_path, struct stat64 *sb){
 
     rc[0] = llapi_layout_comp_use(layout, 1);
     if (rc[0]){
-        cout << "error: layout component iteration failed\n";
+        printf("error: layout component iteration failed\n");
         return 1 ;
     }
     while(1){
@@ -261,7 +259,7 @@ int layout_analysis(const char *file_path, struct stat64 *sb){
         rc[2] = llapi_layout_comp_extent_get(layout, &start, &end);
         if (rc[0] || rc[1] || rc[2])
         {
-            cout << "error: cannot get stripe information\n";
+            printf("error: cannot get stripe information\n");
             continue;
         }
 
@@ -283,7 +281,7 @@ int layout_analysis(const char *file_path, struct stat64 *sb){
         if (rc[0] == 0)
             continue;
         if (rc[0] < 0)
-            cout << "error: layout component iteration failed\n";
+            printf("error: layout component iteration failed\n");
         break;
     }
     here_exit:

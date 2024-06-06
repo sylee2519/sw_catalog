@@ -1,42 +1,42 @@
-fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/2.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 0 4194304
-0 /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/2.txt 158 0 0 1048576 1048576
-/scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/2.txt
-fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/5.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 0 4194304
-1 /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/5.txt 10 0 0 1048576 1048576
-/scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/5.txt
-fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/8.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 0 4194304
-2 /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/8.txt 187 0 0 1048576 1048576
-/scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/8.txt
-fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/11.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 0 4194304
-3 /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/11.txt 109 0 0 1048576 1048576
-/scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/11.txt
-fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/14.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 0 4194304
-4 /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/14.txt 80 0 0 1048576 1048576
-/scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/14.txt
-fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/17.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 0 4194304
-5 /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/17.txt 88 0 0 1048576 1048576
-/scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/17.txt
-fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/20.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 0 4194304
-6 /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/20.txt 110 0 0 1048576 1048576
-/scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/20.txt
-fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/23.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 2081 4194304
-7 /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/23.txt 26 0 2081 1048576 1048576
-/scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/23.txt
-fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/26.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 2081 4194304
-8 /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/26.txt 199 0 2081 1048576 1048576
-/scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/26.txt
-fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/29.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 2081 4194304
-9 /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/29.txt 279 0 2081 1048576 1048576
-/scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/29.txt
-fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/32.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 2081 4194304
-10 /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/32.txt 307 0 2081 1048576 1048576
-/scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/32.txt
-fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/35.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 2081 4194304
-11 /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/35.txt 135 0 2081 1048576 1048576
-/scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/35.txt
-fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/38.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 2081 4194304
-12 /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/38.txt 28 0 2081 1048576 1048576
-/scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/38.txt
-fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/41.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 2081 4194304
-13 /scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/41.txt 50 0 2081 1048576 1048576
-/scratch/s5104a21/mpi_danzer/new/catalog/original3/output1/41.txt
+fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/2.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 0 4194304
+0 /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/2.txt 113 0 0 1048576 1048576
+/scratch/s5104a21/mpi_danzer/new/catalog/original3/out/2.txt
+fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/5.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 0 4194304
+1 /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/5.txt 167 0 0 1048576 1048576
+/scratch/s5104a21/mpi_danzer/new/catalog/original3/out/5.txt
+fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/8.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 0 4194304
+2 /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/8.txt 10 0 0 1048576 1048576
+/scratch/s5104a21/mpi_danzer/new/catalog/original3/out/8.txt
+fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/11.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 0 4194304
+3 /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/11.txt 60 0 0 1048576 1048576
+/scratch/s5104a21/mpi_danzer/new/catalog/original3/out/11.txt
+fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/14.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 0 4194304
+4 /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/14.txt 86 0 0 1048576 1048576
+/scratch/s5104a21/mpi_danzer/new/catalog/original3/out/14.txt
+fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/17.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 0 4194304
+5 /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/17.txt 105 0 0 1048576 1048576
+/scratch/s5104a21/mpi_danzer/new/catalog/original3/out/17.txt
+fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/20.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 0 4194304
+6 /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/20.txt 204 0 0 1048576 1048576
+/scratch/s5104a21/mpi_danzer/new/catalog/original3/out/20.txt
+fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/23.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 1997 4194304
+7 /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/23.txt 222 0 1997 1048576 1048576
+/scratch/s5104a21/mpi_danzer/new/catalog/original3/out/23.txt
+fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/26.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 1997 4194304
+8 /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/26.txt 232 0 1997 1048576 1048576
+/scratch/s5104a21/mpi_danzer/new/catalog/original3/out/26.txt
+fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/29.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 1997 4194304
+9 /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/29.txt 250 0 1997 1048576 1048576
+/scratch/s5104a21/mpi_danzer/new/catalog/original3/out/29.txt
+fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/32.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 1997 4194304
+10 /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/32.txt 259 0 1997 1048576 1048576
+/scratch/s5104a21/mpi_danzer/new/catalog/original3/out/32.txt
+fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/35.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 1997 4194304
+11 /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/35.txt 275 0 1997 1048576 1048576
+/scratch/s5104a21/mpi_danzer/new/catalog/original3/out/35.txt
+fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/38.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 1997 4194304
+12 /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/38.txt 150 0 1997 1048576 1048576
+/scratch/s5104a21/mpi_danzer/new/catalog/original3/out/38.txt
+fstat: /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/41.txt 3592384858 144184671905784528 33188 1 100013821 1000138 0 1997 4194304
+13 /scratch/s5104a21/mpi_danzer/new/catalog/original3/out/41.txt 168 0 1997 1048576 1048576
+/scratch/s5104a21/mpi_danzer/new/catalog/original3/out/41.txt
