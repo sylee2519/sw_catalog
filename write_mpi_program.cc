@@ -11,8 +11,7 @@
 
 #define FILE_CNT 190000
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]){
     int provided;
     MPI_Init_thread(&argc, &argv, MPI_THREAD_MULTIPLE, &provided);
     int rank, worldSize;
@@ -31,22 +30,24 @@ int main(int argc, char *argv[])
     char *outputdir = argv[3];
 
     char working_dir[1024];
-    if (getcwd(working_dir, sizeof(working_dir)) == NULL)
-    {
+    if (getcwd(working_dir, sizeof(working_dir)) == NULL){
         perror("getcwd() error");
         exit(1);
     }
 
-    if (rank == 0)
-    {
+     if (rank == 0){
         char output_path[1024];
         snprintf(output_path, sizeof(output_path), "%s/%s", working_dir, outputdir);
         struct stat st;
-        if (stat(output_path, &st) == -1)
-        {
-            if (mkdir(output_path, 0700) == -1)
-            {
-                perror("mkdir() error");
+        if (stat(output_path, &st) == -1){
+            if (errno == ENOENT){
+                if (mkdir(output_path, 0700) == -1){
+                    perror("mkdir() error");
+                    exit(1);
+                }
+            }
+            else{
+                perror("stat() error");
                 exit(1);
             }
         }
@@ -55,8 +56,7 @@ int main(int argc, char *argv[])
     MPI_Barrier(MPI_COMM_WORLD); 
 
     char *buffer = (char *)malloc(file_size);
-    if (buffer == NULL)
-    {
+    if (buffer == NULL){
         perror("malloc failed");
         exit(1);
     }
@@ -64,8 +64,7 @@ int main(int argc, char *argv[])
     double start_time = MPI_Wtime();
 
     int FileCntPerWorker = file_cnt / worldSize;
-    for (int i = 0; i < FileCntPerWorker; i++)
-    {
+    for (int i = 0; i < FileCntPerWorker; i++){
         int idx = i * worldSize + rank;
 
         memset(buffer, 'A', file_size);
@@ -91,15 +90,13 @@ int main(int argc, char *argv[])
         close(fd);
     }
     MPI_Barrier(MPI_COMM_WORLD);
-    if (rank == 0)
-    {
+    if (rank == 0){
         double end_time = MPI_Wtime();
         double duration = end_time - start_time;
         printf("execution time\t%lf\n", duration);
 
         FILE *fp = fopen("exec_time.eval", "a");
-        if (fp == NULL)
-        {
+        if (fp == NULL){
             perror("file open error");
             exit(1);
         }
